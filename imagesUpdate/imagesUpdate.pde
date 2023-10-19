@@ -42,23 +42,16 @@ void setup() {
   //Compare dimension to get larger dimension
   //Calculate Smaller Dimension
   //Rewrite Variables based on rect() vars
-  obiImageWidth = ;
-  obiImageHeight = ;
-  bikeImageWidth = ;
-  bikeImageHeight =  ;
-  darthImageWidth = ;
-  darthImageHeight = ;
   //Concatenation of Pathways
   String up = "..";
   String open = "/";
   String imagesPath = up + open;
-  String landScapeImage = "imagesUsed/Landscape & Square Images/";
-  String portraitImage = "imagesUsed/Portrait/";
+  String portraitImage = "imagesUsed";
   String obiImage = "Obi-wan-star-wars-jedi-23864621-800-600.jpg";
   String bikeImage = "bike.jpg";
   String darthImage  = "10-star-wars-darth-vader-portrait-wallpaper-1-325x485.jpg";
-  picBackground = loadImage( imagesPath + landScapeImage + obiImage ); //Concatenation
-  bikeForeground = loadImage( imagesPath + landScapeImage + bikeImage);
+  picBackground = loadImage( imagesPath + obiImage ); //Concatenation
+  bikeForeground = loadImage( imagesPath + bikeImage);
   darthVaderPortrait = loadImage( imagesPath + portraitImage + darthImage);
   //
   //DIVs
